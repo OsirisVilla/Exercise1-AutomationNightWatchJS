@@ -23,7 +23,6 @@ module.exports = {
         .setValue(lastNameSelector, lastNameValue)
         .click(agreeAndJoinBtn)
         .assert.visible(ValidationAlert, 'Email required validation is displayed')
-        .saveScreenshot('tests_output/practice.png')  
         .end()
 
     }
